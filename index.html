@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Melis Y. Layik Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(180deg, #fef8fb 0%, #f5f8ff 100%);
+      color: #333;
+    }
+    nav.navbar {
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem 2rem;
+      background: white;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    nav.navbar a {
+      text-decoration: none;
+      color: #ff69b4;
+      font-weight: 600;
+      margin: 0 1rem;
+    }
+    nav.navbar strong {
+      color: #d63384;
+      font-weight: 700;
+    }
+    header {
+      padding: 4rem 2rem;
+      background: linear-gradient(135deg, #ffe9f3, #e6f0ff);
+      text-align: left;
+    }
+    .intro h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #d63384;
+    }
+    .intro p {
+      font-size: 1.1rem;
+      max-width: 600px;
+    }
+    section {
+      padding: 4rem 2rem;
+    }
+    section h2 {
+      color: #d63384;
+      font-size: 1.75rem;
+      margin-bottom: 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 1rem;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="#projects">Projects</a>
+    <strong>Melis Y. Layik</strong>
+    <a href="#experience">Experience</a>
+  </nav>
+
+  <header>
+    <div class="intro">
+      <h1>Hi!</h1>
+      <p>I'm Melis — a Software Engineering student at Heilbronn University, set to graduate with my bachelor's degree in 2026. Feel free to scroll down to explore my projects and work experience.</p>
+    </div>
+  </header>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="card">
+      <strong>05/2025: Current Internship – Data Science in V-Engine Development</strong><br>
+      <strong>Audi Neckarsulm Grundapplikation/Thermodynamik V-Ottomotoren.</strong>
+      <p> Description coming soon.</p>
+    </div>
+    <div class="card">
+      <strong>  IT agile Projectmanagemt in the field of SCRUM</strong><br>
+      <strong>  Bosch Stuttgart-Feuerbach Agile Master Chapter</strong>
+      <p>During my one-month internship in Agile Project Management within the IT department, I worked closely with Agile Masters, actively participating in daily stand-ups, weekly plannings, sprint reviews, and retrospectives, while gaining hands-on experience in Agile methodologies and collaborating with cross-functional, intercultural teams to understand the dynamics of efficient and adaptive project delivery.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="card">
+      <h3>Exproware – Expert Management Web App</h3>
+      <p>As part of the “Labor” module at Heilbronn University, my team and I developed Exproware, a web application for the Frankfurter Institut für Technologie und Innovation (FITI), aimed at simplifying the management of external experts and projects. I supported the agile development process through regular Scrum events and contributed to the design, development, and testing of key features and pages, including the main project overview page, using Ruby on Rails, PostgreSQL, Docker, and JavaScript.</p>
+      <img src="img/exproware.png" alt="Screenshot Exproware" style="width: 100%; max-width: 700px; border-radius: 1rem; margin: 1rem 0;">
+      <img src="img/c4.png" alt="Screenshot Exproware" style="width: 100%; max-width: 700px; border-radius: 1rem; margin: 1rem 0;">
+    </div>
+    <div class="card">
+      <h3>Malefiz Game</h3>
+      <p> As part of our programming coursework, we recreated the classic board game Malefiz as an online multiplayer computer game. The project focused on learning Git and collaborative development, while implementing the game primarily in Java. We designed a user-friendly graphical interface to ensure intuitive gameplay and translated the core mechanics of the traditional game into an engaging digital experience.</p>
+      <img src="img/gameboard.png" alt="Screenshot Exproware" style="width: 100%; max-width: 700px; border-radius: 1rem; margin: 1rem 0;">
+    </div>
+    <div class="card">
+      <h3>Smart Mirror</h3>
+      <p>We developed a smart mirror that utilizes ultrasonic sensors and Arduino to detect objects and automatically adjust its position. Equipped with LED lights, the mirror enhances the makeup experience by repositioning itself to face the user directly as they move. This project combined hardware and software to create a dynamic, user-friendly solution for a more efficient and personalized makeup routine. Here is a picture of the early stages</p>
+      <img src="img/process.jpg" alt="Screenshot Exproware" style="width: 100%; max-width: 700px; border-radius: 1rem; margin: 1rem 0;">
+    </div>
+      
+    </div>
+  </section>
+
+
+
+</body>
+</html>
